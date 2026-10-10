@@ -1,8 +1,5 @@
-function clicked(htmlElement) {
-  const bg = htmlElement.style.backgroundColor;
-  if (bg === "lightblue") {
-    htmlElement.style.backgroundColor = "lightgreen";
-    return;
-  }
-  htmlElement.style.backgroundColor = "lightblue";
+function handleClick(event) {
+  event.preventDefault();
+  event.target.style.backgroundColor =
+    event.target.style.backgroundColor === "gray" ? "lightgreen" : "gray";
 }
