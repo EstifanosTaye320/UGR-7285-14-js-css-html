@@ -1,0 +1,93 @@
+<style>
+  .button-container {
+    margin-bottom: 20px;
+  }
+  .page-numbers {
+    display: inline-block;
+    margin-right: 5px;
+  }
+  .page-number {
+    background-color: white;
+    padding: 5px 5px;
+    border: none;
+    font-size: 17px;
+    margin-right: 5px;
+    font-family: "Times New Roman";
+    text-decoration: underline;
+  }
+  .directional {
+    padding: 10px 7px;
+    margin-right: 10px;
+    border: 1px solid #000000;
+    border-radius: 3px;
+  }
+
+  .green-button {
+    background-color: green;
+    color: white;
+    font-size: 17px;
+    border: none;
+    padding: 5px 15px;
+  }
+
+  .strech {
+    transition:
+      padding 0.5s,
+      font-size 0.5s;
+  }
+  .strech:hover {
+    padding: 15px 45px;
+    font-size: 51px;
+  }
+
+  .threed-button {
+    box-shadow: 3px 3px 10px black;
+    transition:
+      margin 0.2s,
+      box-shadow 0.2s;
+  }
+  .threed-button:active {
+    margin: 3px;
+    box-shadow: 0px 0px 0px black;
+  }
+
+  .relaxing-button {
+    margin: 0px 15px;
+    transition:
+      padding 0.2s,
+      margin 0.2s;
+  }
+
+  .relaxing-button:hover {
+    padding: 5px 25px;
+    margin: 0px 5px;
+  }
+</style>
+
+<div>
+  <div id="4h" class="button-container">
+    <button class="directional">Back</button>
+    <div class="page-numbers">
+      <button class="page-number">1</button>
+      <button class="page-number">2</button>
+      <button class="page-number">3</button>
+      <button class="page-number">4</button>
+      <button class="page-number">5</button>
+    </div>
+    <button class="directional">Next</button>
+  </div>
+
+  <div id="4i" class="button-container">
+    <button class="green-button strech">Stretch</button>
+  </div>
+
+  <div id="4j" class="button-container">
+    <button class="green-button threed-button">Shadow</button>
+  </div>
+
+  <div id="4k" class="button-container">
+    <button class="green-button relaxing-button">One</button>
+    <button class="green-button relaxing-button">Two</button>
+    <button class="green-button relaxing-button">Three</button>
+  </div>
+</div>
