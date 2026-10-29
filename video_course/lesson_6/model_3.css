@@ -1,0 +1,17 @@
+p {
+  margin: 0px;
+  margin-bottom: 20px;
+  font-family: Montserrat;
+}
+.title {
+  font-size: 40px;
+  text-align: center;
+  font-weight: bold;
+}
+.body-text {
+  text-align: center;
+}
+.span-text {
+  color: rgb(13, 0, 255);
+  text-decoration: underline;
+}
